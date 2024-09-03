@@ -40,9 +40,9 @@ function Hero() {
         <h1 className="text-5xl xl:text-8xl font-extrabold xl:leading-[100px] text-center xl:w-[90%] mx-auto"><span className="text-primary text-nowrap">Explore new job</span> vacancies all over the world</h1>
         <p className="text-lg text-center xl:w-[50%] mx-auto text-secondary font-semibold">Our platform features more than 1.2 million job vacancies worldwide, connecting you with employers who value your skills and experience.</p>
         <div className="flex flex-col lg:flex-row gap-8">
-            <div className="relative bg-gray py-2.5 px-3.5 rounded-xl">
+            <div className=" bg-gray py-2.5 px-3.5 flex items-center rounded-xl">
+                <RiSearch2Line className=""  /> 
                 <input type="text" placeholder="Company or industry"  className="text-secondary outline-none px-8 bg-transparent xl:w-[400px]" />
-                <RiSearch2Line className="absolute top-5"  /> 
                 <select name="" id="" className="text-secondary border-l outline-none  bg-transparent py-1.5 px-3.5 xl:w-[100px]" >
                     <option value="25 mi">25 mi</option>
                 </select>
