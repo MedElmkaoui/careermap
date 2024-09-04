@@ -49,3 +49,51 @@ export const countries = [
       "status": "High"
     }
   ]
+
+
+  export const footerData = {
+    "logo": "/logo.png",
+    "description": "your career companion. access the latest job listings, create a standout profile, and land your dream job.",
+    "sections": [
+      {
+        "title": "Help & Support",
+        "items": [
+          "Blog",
+          "Resources",
+          "Contact Us",
+          "Support Center",
+          "User Guides"
+        ]
+      },
+      {
+        "title": "Employers",
+        "items": [
+          "Products",
+          "Post a Job",
+          "Employer Login",
+          "Pricing Plans",
+          "Success Stories"
+        ]
+      },
+      {
+        "title": "Job Seekers",
+        "items": [
+          "Search Jobs",
+          "Browse Jobs",
+          "Salary Tools",
+          "Career Advice",
+          "Company Profile"
+        ]
+      },
+      {
+        "title": "Helpful Resources",
+        "items": [
+          "Work with us",
+          "Terms of Use",
+          "Privacy Center",
+          "Security Center",
+          "Accessibility Center"
+        ]
+      }
+    ]
+  }
